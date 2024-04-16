@@ -5,7 +5,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <main className="bg-fuchsia-500">
+    <main className="bg-primary">
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
