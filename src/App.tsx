@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="bg-primary h-screen">
+    <main className="bg-primary h-screen px-4">
       <div className="space-y-4 pb-7 text-center sm:text-left md:space-y-7 lg:pb-0">
         <div>
           <p className="">Media enquiries:</p>
