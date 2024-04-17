@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Denim-Regular";
+  font-family: "Denim";
   src: url("Denim-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Denim-Regular";
+  font-family: "Denim";
   src: url("Denim-SemiBold.woff2") format("woff2");
   font-weight: 600;
 }

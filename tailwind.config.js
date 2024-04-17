@@ -6,6 +6,16 @@ export default {
       colors: {
         primary: "#A7D0D8",
       },
+      fontFamily: {
+        denim: ["Denim", "ui-sans-serif", "system-ui"],
+        recklessNeue: [
+          "Reckless Neue",
+          "ui-serif",
+          "Georgia",
+          "Cambria",
+          "Times New Roman",
+        ],
+      },
     },
   },
   plugins: [],
