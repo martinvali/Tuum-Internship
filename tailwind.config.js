@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         primary: "#A7D0D8",
+        "black-primary": "#140A24",
       },
       fontFamily: {
         denim: ["Denim", "ui-sans-serif", "system-ui"],
