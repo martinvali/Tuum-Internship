@@ -17,6 +17,9 @@ export default {
           "Times New Roman",
         ],
       },
+      backgroundImage: {
+        "close-icon": "url('/icon-close.svg')",
+      },
     },
   },
   plugins: [],
