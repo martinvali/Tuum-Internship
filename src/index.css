@@ -26,3 +26,8 @@
   src: url("RecklessNeue-Light.woff2") format("woff2");
   font-weight: 300;
 }
+
+*,
+html {
+  box-sizing: border-box;
+}
