@@ -38,16 +38,14 @@ function App() {
         <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
           <TextInput
             classNames={{
-              input:
-                "rounded-lg py-2.5 px-3.5 border border-[#d0d5dd] focus:border-[#a7d0d8]",
+              input: "input-styles",
             }}
             className="py-2.5 flex-1"
             placeholder="First name"
           />
           <TextInput
             classNames={{
-              input:
-                "rounded-lg py-2.5 px-3.5 border border-[#d0d5dd] focus:border-[#a7d0d8]",
+              input: "input-styles",
             }}
             className="flex-1"
             placeholder="Last name"
@@ -56,16 +54,14 @@ function App() {
         <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
           <TextInput
             classNames={{
-              input:
-                "rounded-lg py-2.5 px-3.5 border border-[#d0d5dd] focus:border-[#a7d0d8]",
+              input: "input-styles",
             }}
             className="flex-1"
             placeholder="Email"
           />
           <TextInput
             classNames={{
-              input:
-                "rounded-lg py-2.5 px-3.5 border border-[#d0d5dd] focus:border-[#a7d0d8]",
+              input: "input-styles",
             }}
             className="flex-1"
             placeholder="Job title"
@@ -74,8 +70,7 @@ function App() {
         <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
           <Select
             classNames={{
-              input:
-                "rounded-lg py-2.5 px-3.5 border border-[#d0d5dd] focus:border-[#a7d0d8]",
+              input: "input-styles",
             }}
             className="flex-1"
             placeholder="Country"
@@ -84,8 +79,7 @@ function App() {
           />
           <TextInput
             classNames={{
-              input:
-                "rounded-lg py-2.5 px-3.5 border border-[#d0d5dd] focus:border-[#a7d0d8]",
+              input: "input-styles",
             }}
             className="flex-1"
             placeholder="Company name"
@@ -93,8 +87,7 @@ function App() {
         </div>
         <Textarea
           classNames={{
-            input:
-              "rounded-lg py-2.5 px-3.5 border border-[#d0d5dd] focus:border-[#a7d0d8]",
+            input: "input-styles",
           }}
           placeholder="What would you like to talk about?"
         />

@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .input-styles {
+    @apply rounded-lg py-2.5 px-3.5 border border-[#d0d5dd] focus:border-[#a7d0d8] text-[#140a24] font-denim text-base h-[46px];
+  }
+}
 @font-face {
   font-family: "Denim";
   src: url("Denim-Regular.woff2") format("woff2");
