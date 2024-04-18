@@ -125,6 +125,9 @@ function App() {
             </p>
           }
         />
+        <button className="mt-4 bg-primary text-base font-denim py-2.5 px-[1.125rem] rounded-xl hover:bg-[#d0d5dd] color-[#140923]">
+          Submit
+        </button>
       </div>
     </main>
   );
