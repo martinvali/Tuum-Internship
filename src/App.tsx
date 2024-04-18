@@ -1,6 +1,13 @@
 import "./App.css";
 import "./freakflags.css";
-import { Select, SelectProps, Group, TextInput, Textarea } from "@mantine/core";
+import {
+  Select,
+  SelectProps,
+  Group,
+  TextInput,
+  Textarea,
+  Checkbox,
+} from "@mantine/core";
 function App() {
   const data = [{ value: "DZ", label: "Algeria" }];
 
@@ -90,6 +97,33 @@ function App() {
             input: "input-styles h-36",
           }}
           placeholder="What would you like to talk about?"
+        />
+        <Checkbox
+          size="xs"
+          className="mt-4"
+          label={
+            <p className="font-denim text-base">
+              By submitting this form I accept{" "}
+              <a className="text-[#219dfb] underline" href="">
+                privacy policy
+              </a>{" "}
+              and{" "}
+              <a className="text-[#219dfb] underline" href="">
+                cookie policy.
+              </a>
+              {" *"}
+            </p>
+          }
+        />
+
+        <Checkbox
+          size="xs"
+          className="mt-4"
+          label={
+            <p className="font-denim text-base">
+              I would like to receive your newsletter.
+            </p>
+          }
         />
       </div>
     </main>
