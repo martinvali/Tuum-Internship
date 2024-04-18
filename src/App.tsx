@@ -40,7 +40,7 @@ function App() {
             classNames={{
               input: "input-styles",
             }}
-            className="py-2.5 flex-1"
+            className="flex-1"
             placeholder="First name"
           />
           <TextInput
@@ -87,7 +87,7 @@ function App() {
         </div>
         <Textarea
           classNames={{
-            input: "input-styles",
+            input: "input-styles h-36",
           }}
           placeholder="What would you like to talk about?"
         />
