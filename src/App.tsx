@@ -36,23 +36,61 @@ function App() {
           <h1 className="text-5xl font-recklessNeue">Contact us</h1>
         </fieldset>
         <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
-          <TextInput className="py-2.5 flex-1" placeholder="First name" />
-          <TextInput className="flex-1" placeholder="Last name" />
+          <TextInput
+            classNames={{
+              input: "rounded-lg",
+            }}
+            className="py-2.5 flex-1"
+            placeholder="First name"
+          />
+          <TextInput
+            classNames={{
+              input: "rounded-lg",
+            }}
+            className="flex-1"
+            placeholder="Last name"
+          />
         </div>
         <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
-          <TextInput className="flex-1" placeholder="Email" />
-          <TextInput className="flex-1" placeholder="Job title" />
+          <TextInput
+            classNames={{
+              input: "rounded-lg",
+            }}
+            className="flex-1"
+            placeholder="Email"
+          />
+          <TextInput
+            classNames={{
+              input: "rounded-lg",
+            }}
+            className="flex-1"
+            placeholder="Job title"
+          />
         </div>
         <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
           <Select
+            classNames={{
+              input: "rounded-lg",
+            }}
             className="flex-1"
             placeholder="Country"
             data={data}
             renderOption={renderSelectOption}
           />
-          <TextInput className="flex-1" placeholder="Company name" />
+          <TextInput
+            classNames={{
+              input: "rounded-lg",
+            }}
+            className="flex-1"
+            placeholder="Company name"
+          />
         </div>
-        <Textarea placeholder="What would you like to talk about?" />
+        <Textarea
+          classNames={{
+            input: "rounded-lg",
+          }}
+          placeholder="What would you like to talk about?"
+        />
       </div>
     </main>
   );
