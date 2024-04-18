@@ -35,18 +35,23 @@ function App() {
         <fieldset className="mb-8">
           <h1 className="text-5xl font-recklessNeue">Contact us</h1>
         </fieldset>
-        <TextInput placeholder="First name" />
-        <TextInput placeholder="Last name" />
-        <TextInput placeholder="Email" />
-        <TextInput placeholder="Job title" />
-
-        <Select
-          label="Your favorite library"
-          placeholder="Country"
-          data={data}
-          renderOption={renderSelectOption}
-        />
-        <TextInput placeholder="Company name" />
+        <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
+          <TextInput className="py-2.5 flex-1" placeholder="First name" />
+          <TextInput className="flex-1" placeholder="Last name" />
+        </div>
+        <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
+          <TextInput className="flex-1" placeholder="Email" />
+          <TextInput className="flex-1" placeholder="Job title" />
+        </div>
+        <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
+          <Select
+            className="flex-1"
+            placeholder="Country"
+            data={data}
+            renderOption={renderSelectOption}
+          />
+          <TextInput className="flex-1" placeholder="Company name" />
+        </div>
         <Textarea placeholder="What would you like to talk about?" />
       </div>
     </main>
