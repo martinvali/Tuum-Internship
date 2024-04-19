@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Front-end position internship test assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Main technologies used: React, TypeScript, Mantine UI Components, TailwindCSS.
 
-Currently, two official plugins are available:
+Vite was used to set up the project and bundle it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Adding flags to the select element
 
-## Expanding the ESLint configuration
+To add a flag next to each country, I used freak flags from https://www.freakflagsprite.com/
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Since having each flag as a separate image would result in a huge amount of HTTP requests, I decided to go with this approach.
 
-- Configure the top-level `parserOptions` property like this:
+This approach includes only one HTTP request, where a sprite with all images are included. Then, with the help of css, only the correct part of the image is displayed. Also, the image is only fetched, if the user clicks on the select element.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This approach optimizes the solution a lot. To improve user experience, you might want to fetch the flags' image when the user hovers on the select element, to avoid a small delay.

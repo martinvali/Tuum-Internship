@@ -11,19 +11,19 @@
 }
 @font-face {
   font-family: "Denim";
-  src: url("Denim-Regular.woff2") format("woff2");
+  src: url("/Denim-Regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Denim";
-  src: url("Denim-SemiBold.woff2") format("woff2");
+  src: url("/Denim-SemiBold.woff2") format("woff2");
   font-weight: 600;
 }
 
 @font-face {
   font-family: "Reckless Neue";
-  src: url("RecklessNeue-Light.woff2") format("woff2");
+  src: url("/RecklessNeue-Light.woff2") format("woff2");
   font-weight: 300;
 }
 
