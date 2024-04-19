@@ -47,14 +47,24 @@ function Form() {
       <Checkbox
         size="xs"
         className="mt-6"
+        classNames={{
+          body: "items-center",
+          input: "focus-visible:outline-black-primary/50",
+        }}
         label={
           <p className="font-denim text-base">
             By submitting this form I accept{" "}
-            <a className="text-[#219dfb] underline" href="">
+            <a
+              className="text-[#219dfb] underline focus-visible:outline-black-primary/50"
+              href=""
+            >
               privacy policy
             </a>{" "}
             and{" "}
-            <a className="text-[#219dfb] underline" href="">
+            <a
+              className="text-[#219dfb] underline focus-visible:outline-black-primary/50"
+              href=""
+            >
               cookie policy.
             </a>
             {" *"}
@@ -65,13 +75,17 @@ function Form() {
       <Checkbox
         size="xs"
         className="mt-4"
+        classNames={{
+          body: "items-center",
+          input: "focus-visible:outline-black-primary/50",
+        }}
         label={
           <p className="font-denim text-base">
             I would like to receive your newsletter.
           </p>
         }
       />
-      <button className="mt-4 bg-primary text-base font-denim py-2.5 px-[1.125rem] rounded-xl hover:bg-[#d0d5dd] color-[#140923]">
+      <button className="mt-4 bg-primary text-base font-denim py-2.5 px-[1.125rem] rounded-xl hover:bg-[#d0d5dd] color-[#140923] focus-visible:outline-black-primary/50">
         Submit
       </button>
     </form>
