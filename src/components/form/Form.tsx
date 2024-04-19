@@ -1,15 +1,8 @@
-import {
-  Select,
-  SelectProps,
-  Group,
-  TextInput,
-  Textarea,
-  Checkbox,
-} from "@mantine/core";
+import { Select, SelectProps, Group, Textarea, Checkbox } from "@mantine/core";
 
-import formCountries from "../constant/formCountries";
-
-import "../freakflags.css";
+import formCountries from "../../constant/formCountries";
+import FormTextInput from "./FormTextInput";
+import "../../freakflags.css";
 
 function Form() {
   const renderSelectOption: SelectProps["renderOption"] = ({ option }) => (
@@ -26,36 +19,12 @@ function Form() {
         </h1>
       </fieldset>
       <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
-        <TextInput
-          classNames={{
-            input: "input-styles",
-          }}
-          className="flex-1"
-          placeholder="First name"
-        />
-        <TextInput
-          classNames={{
-            input: "input-styles",
-          }}
-          className="flex-1"
-          placeholder="Last name"
-        />
+        <FormTextInput placeholder="First name" />
+        <FormTextInput placeholder="Last name" />
       </div>
       <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
-        <TextInput
-          classNames={{
-            input: "input-styles",
-          }}
-          className="flex-1"
-          placeholder="Email"
-        />
-        <TextInput
-          classNames={{
-            input: "input-styles",
-          }}
-          className="flex-1"
-          placeholder="Job title"
-        />
+        <FormTextInput placeholder="Email" />
+        <FormTextInput placeholder="Job Title" />
       </div>
       <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
         <Select
@@ -67,13 +36,7 @@ function Form() {
           data={formCountries}
           renderOption={renderSelectOption}
         />
-        <TextInput
-          classNames={{
-            input: "input-styles",
-          }}
-          className="flex-1"
-          placeholder="Company name"
-        />
+        <FormTextInput placeholder="Company name" />
       </div>
       <Textarea
         classNames={{
@@ -83,7 +46,7 @@ function Form() {
       />
       <Checkbox
         size="xs"
-        className="mt-4"
+        className="mt-6"
         label={
           <p className="font-denim text-base">
             By submitting this form I accept{" "}

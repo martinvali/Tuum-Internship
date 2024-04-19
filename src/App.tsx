@@ -1,7 +1,7 @@
 import "./App.css";
-import ContactTexts from "./components/ContactTexts";
+import ContactTexts from "./components/contacts/ContactTexts";
 
-import Form from "./components/Form";
+import Form from "./components/form/Form";
 
 function App() {
   return (
