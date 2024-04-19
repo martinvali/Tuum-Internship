@@ -32,8 +32,8 @@ function App() {
                 Media enquiries:
               </p>
               <a
-                className="text-lg leading-[1.75rem]"
-                href="mailto:press@tuum.com"
+                className="font-denim text-lg leading-[1.75rem] relative after:content-[''] after:block after:w-full after:h-px after:bg-[#140a24] after:absolute after:left-0 after:-bottom-0.5 hover:after:w-0 hover:after:bg-transparent after:duration-500"
+                href="mailto:careers@tuum.com"
               >
                 press@tuum.com
               </a>
@@ -43,7 +43,7 @@ function App() {
                 Career questions:
               </p>
               <a
-                className="text-lg leading-[1.75rem]"
+                className="font-denim text-lg leading-[1.75rem] relative after:content-[''] after:block after:w-full after:h-px after:bg-[#140a24] after:absolute after:left-0 after:-bottom-0.5 hover:after:w-0 hover:after:bg-transparent after:duration-500"
                 href="mailto:careers@tuum.com"
               >
                 careers@tuum.com
