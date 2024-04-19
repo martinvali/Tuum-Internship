@@ -7,11 +7,11 @@ import {
   Checkbox,
 } from "@mantine/core";
 
+import formCountries from "../constant/formCountries";
+
 import "../freakflags.css";
 
 function Form() {
-  const data = [{ value: "DZ", label: "Algeria" }];
-
   const renderSelectOption: SelectProps["renderOption"] = ({ option }) => (
     <Group flex="1" gap="xs">
       {option.label}
@@ -64,7 +64,7 @@ function Form() {
           }}
           className="flex-1"
           placeholder="Country"
-          data={data}
+          data={formCountries}
           renderOption={renderSelectOption}
         />
         <TextInput
