@@ -28,25 +28,33 @@ function App() {
         <div className="mt-[6%] sm:px-10 md:px-16 lg:px-10 xl:px-20 lg:flex lg:flex-row lg:justify-center lg:items-start">
           <div className="space-y-4 pb-7 text-center sm:text-left md:space-y-7 lg:pb-0 lg:flex-1 lg:basis-[35%]">
             <div className="!mt-0">
-              <p className="font-denim text-xl md:font-recklessNeue md:text-4xl">
+              <p className="font-denim text-xl md:font-recklessNeue md:text-4xl md:tracking-[-0.02em] leading-[1.875rem] md:leading-[2.75rem]">
                 Media enquiries:
               </p>
-              <a className="text-lg" href="mailto:press@tuum.com">
+              <a
+                className="text-lg leading-[1.75rem]"
+                href="mailto:press@tuum.com"
+              >
                 press@tuum.com
               </a>
             </div>
             <div>
-              <p className="font-denim text-xl md:font-recklessNeue md:text-4xl">
+              <p className="font-denim text-xl md:font-recklessNeue md:text-4xl md:tracking-[-0.02em] leading-[1.875rem] md:leading-[2.75rem]">
                 Career questions:
               </p>
-              <a className="text-lg" href="mailto:careers@tuum.com">
+              <a
+                className="text-lg leading-[1.75rem]"
+                href="mailto:careers@tuum.com"
+              >
                 careers@tuum.com
               </a>
             </div>
           </div>
           <form className="bg-white tall:py-6 tall-md:py-8 py-8 px-8 lg:px-10 xl:px-16 rounded-[40px] lg:flex-1 lg:basis-[65%]">
             <fieldset className="mb-8">
-              <h1 className="text-5xl font-recklessNeue">Contact us</h1>
+              <h1 className="text-5xl font-recklessNeue leading-[3.75rem] tracking-[-0.02em]">
+                Contact us
+              </h1>
             </fieldset>
             <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
               <TextInput
