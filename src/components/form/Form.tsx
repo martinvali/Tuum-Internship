@@ -3,6 +3,7 @@ import { Select, SelectProps, Group, Textarea, Checkbox } from "@mantine/core";
 import formCountries from "../../constant/formCountries";
 import FormTextInput from "./FormTextInput";
 import "../../freakflags.css";
+import FormInputsContainer from "./FormInputsContainer";
 
 function Form() {
   const renderSelectOption: SelectProps["renderOption"] = ({ option }) => (
@@ -18,15 +19,15 @@ function Form() {
           Contact us
         </h1>
       </fieldset>
-      <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
+      <FormInputsContainer>
         <FormTextInput placeholder="First name" />
         <FormTextInput placeholder="Last name" />
-      </div>
-      <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
+      </FormInputsContainer>
+      <FormInputsContainer>
         <FormTextInput placeholder="Email" />
         <FormTextInput placeholder="Job Title" />
-      </div>
-      <div className="flex flex-row justify-center items-center gap-x-4 mb-4">
+      </FormInputsContainer>
+      <FormInputsContainer>
         <Select
           classNames={{
             input: "input-styles",
@@ -37,7 +38,7 @@ function Form() {
           renderOption={renderSelectOption}
         />
         <FormTextInput placeholder="Company name" />
-      </div>
+      </FormInputsContainer>
       <Textarea
         classNames={{
           input: "input-styles h-36",
