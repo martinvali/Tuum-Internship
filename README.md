@@ -13,3 +13,9 @@ Since having each flag as a separate image would result in a huge amount of HTTP
 This approach includes only one HTTP request, where a sprite with all images are included. Then, with the help of css, only the correct part of the image is displayed. Also, the image is only fetched, if the user clicks on the select element.
 
 This approach optimizes the solution a lot. To improve user experience, you might want to fetch the flags' image when the user hovers on the select element, to avoid a small delay.
+
+# Notes
+
+I left the checkboxes a bit bigger than in the original design, as I felt it makes for a better outcome visually. The border color of the checkboxes is also lighter than in the original design for the same reason.
+
+Additionally, the placeholder text of the country select element is lighter than in the original design to make for a more consistent design.
