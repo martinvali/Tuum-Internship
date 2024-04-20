@@ -4,6 +4,8 @@ Main technologies used: React, TypeScript, Mantine UI Components, TailwindCSS.
 
 Vite was used to set up the project and bundle it.
 
+A deployed version of the project can be seen at (tuumfrontend.netlify.app)
+
 # Adding flags to the select element
 
 To add a flag next to each country, I used freak flags from https://www.freakflagsprite.com/
@@ -18,10 +20,10 @@ This approach optimizes the solution a lot. To improve user experience, you migh
 
 1. Clone the project from GitHub.
 2. Open up a terminal and change directory to folder Tuum-Contact if needed.
-3. In the terminal, run npm install
-4. In the terminal, run npm run dev
+3. In the terminal, run `npm install`
+4. In the terminal, run `npm run dev`
 
-5. For building the project, in the terminal, run npm run build and a dist folder with the bundled code will be created.
+5. For building the project, in the terminal, run `npm run build` and a dist folder with the bundled code will be created.
 
 # Notes
 
