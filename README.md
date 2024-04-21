@@ -27,7 +27,7 @@ There isn't a lot more that can be done to further optimize the bundle as Vite a
 # Running and building locally
 
 1. Clone the project from GitHub.
-2. Open up a terminal and change directory to folder Tuum-Contact if needed.
+2. Open up a terminal and change directory to folder Tuum-Internship if needed `cd Tuum-Internship`
 3. In the terminal, run `npm install`
 4. To run the project locally, in the terminal, run `npm run dev` and instructions will appear in the terminal.
 
