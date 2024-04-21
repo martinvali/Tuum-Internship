@@ -4,6 +4,8 @@ Main technologies used: React, TypeScript, Mantine UI Components, TailwindCSS.
 
 Vite was used to set up the project and bundle it.
 
+For the Input components, Mantine UI was used as I have experience with it and it is easy to set up and customize.
+
 A deployed version of the project can be seen at https://tuumfrontend.netlify.app/
 
 # Adding flags to the select element
