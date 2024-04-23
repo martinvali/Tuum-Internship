@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        mediumHeight: { raw: "(min-height: 600px)" },
+        tallHeight: { raw: "(min-height: 900px)" },
+      },
       colors: {
         primary: "#A7D0D8",
         "black-primary": "#140A24",

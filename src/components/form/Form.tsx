@@ -13,7 +13,7 @@ function Form() {
     </Group>
   );
   return (
-    <form className="bg-white tall:py-6 tall-md:py-8 py-8 px-8 lg:px-10 xl:px-16 rounded-[40px] lg:flex-1 lg:basis-[65%]">
+    <form className="bg-white mediumHeight:py-6 tallHeight:py-8 py-8 px-8 lg:px-10 xl:px-16 rounded-[40px] lg:flex-1 lg:basis-[65%]">
       <fieldset className="mb-8">
         <h1 className="text-5xl font-recklessNeue leading-[3.75rem] tracking-[-0.02em]">
           Contact us
